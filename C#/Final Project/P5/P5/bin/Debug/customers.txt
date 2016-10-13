@@ -1,0 +1,10 @@
+## Database of current customers:
+
+## ID, Name, Lastname, SSN, Nationality, Birthdate:
+
+0, Customer0Name, Customer0Lastname, Customer0SSN, Customer0Nationality, Customer0Sex, Customer0Birthdate
+1, Customer1Name, Customer1Lastname, Customer1SSN, Customer1Nationality, Customer1Sex, Customer1Birthdate
+2, Customer2Name, Customer2Lastname, Customer2SSN, Customer2Nationality, Customer2Sex, Customer2Birthdate
+3, Customer3Name, Customer3Lastname, Customer3SSN, Customer3Nationality, Customer3Sex, Customer3Birthdate
+4, Customer4Name, Customer4Lastname, Customer4SSN, Customer4Nationality, Customer4Sex, Customer4Birthdate
+5, Customer5Name, Customer5Lastname, Customer5SSN, Customer5Nationality, Customer5Sex, Customer5Birthdate

@@ -1,0 +1,144 @@
+
+ASSIST/I Version 2.03, Copyright 1984, BDM Software.                          GRADE RUN FOR: AB
+
+
+                                                                                                                            PAGE 1
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+                                      1 *****************************************************************
+                                      2 *                                                               *
+                                      3 * FILE NAME:  PROJECT3            ASSIGNMENT#:  3               *
+                                      4 *                                                               *
+                                      5 * AUTHOR __________________________________________             *
+                                      6 *                     ADRIAN BELOQUI                            *
+                                      7 *                                                               *
+                                      8 * COURSE: CSC 25500  SECTION: 11      DUE DATE:  10/13/2016     *
+                                      9 *                                                               *
+                                     10 * PURPOSE:  THIS PROGRAM READS AN EXTERNAL TEXT FILE WITH MORE  *
+                                     11 *           THAN ONE NUMBER IN EACH LINE. IT PROCESS THE DATA   *
+                                     12 *           AS A DEPOSIT OR WITHDRAWAL BY COMPUTING THE BALANCE *
+                                     13 *           REMAINING IN THE ACCOUNT AFTER THE TRANSACTION HAS  *
+                                     14 *           BEEN PROCESSED AND PRINTED. THEN THE PROGRAM PRINTS *
+                                     15 *           A SUMMARY SECTION.                                  *
+                                     16 *                                                               *
+                                     17 *****************************************************************
+000000                               18 PROG3    CSECT
+000000                               19          USING PROG3,15
+                                     20 *
+000000 1B22                          21          SR    2,2            ACCOUNT BALANCE
+000002 1B33                          22          SR    3,3            NUMBER OF WITHDRAWALS
+000004 1B44                          23          SR    4,4            NUMBER OF DEPOSITS
+000006 1B76                          24          SR    7,6            TOTAL WITHDRAWALS
+000008 1B98                          25          SR    9,8            TOTAL DEPOSITS
+                                     26 *
+00000A E000 F0DA 0023 000DA          27          XREAD CARD,35
+000010 4740 F096            00096    28          BC    B'0100',EXIT   EXIT ON EOF
+000014 53B0 F0DA            000DA    29          XDECI 11,CARD        CONVERT INPUT INTO DECIMAL
+000018 4710 F0D2            000D2    30          BC    B'0001',ERR    EXIT ON ERROR
+00001C 1A2B                          31          AR    2,11           SET INITIAL BALANCE
+00001E E020 F176 004F 00176          32          XPRNT HEAD1,79       PRINT FIRST HEADER
+000024 E020 F1C5 004F 001C5          33          XPRNT HEAD2,79       PRINT SECOND HEADER
+00002A 5220 F14B            0014B    34          XDECO 2,BLANK+36     PREPARE OUTPUT
+00002E E020 F127 004F 00127          35          XPRNT BLANK,79       PRINT INITIAL BALANCE
+000034 E000 F0DA 0023 000DA          36 LOOP     XREAD CARD,35        READ CHARACTER FROM INPUT
+00003A 4740 F096            00096    37          BC    B'0100',EXIT   EXIT ON EOF
+00003E 53B0 F0DA            000DA    38          XDECI 11,CARD        CONVERT INPUT INTO DECIMAL
+000042 4710 F0D2            000D2    39          BC    B'0001',ERR    EXIT ON ERROR
+000046 4720 F070            00070    40          BC    B'0010',WITHD  BRANCH IF NUMBER IS EQUAL TO ONE
+00004A 53A1 0000            00000    41          XDECI 10,0(1)        GET SECOND NUMBER FROM INPUT
+00004E 4710 F0D2            000D2    42          BC    B'0001',ERR    EXIT ON ERROR
+000052 5A40 F100            00100    43          A     4,ONE          INCREASE NUMBER OF DEPOSITS BY ONE
+000056 1A9A                          44          AR    9,10           INCREASE THE AMOUNT OF DEPOSITS
+000058 1A2A                          45          AR    2,10           INCREASE BALANCE WITH THE DEPOSIT
+00005A 52B0 F127            00127    46          XDECO 11,BLANK       PREPARE OUTPUT
+00005E 52A0 F137            00137    47          XDECO 10,BLANK+16    PREPARE OUTPUT
+000062 5220 F14B            0014B    48          XDECO 2,BLANK+36     PREPARE OUTPUT
+000066 E020 F127 004F 00127          49          XPRNT BLANK,79       PRINT LINE
+00006C 47F0 F034            00034    50          BC    B'1111',LOOP   RETURN BACK TO THE LOOP
+                                     51 *
+
+                                                                                                                            PAGE 2
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+000070 53A1 0000            00000    52 WITHD    XDECI 10,0(1)        GET SECOND NUMBER FROM INPUT
+000074 4710 F0D2            000D2    53          BC    B'0001',ERR    EXIT ON ERROR
+000078 5A30 F100            00100    54          A     3,ONE          INCREASE NUMBER OF WITHDRAWALS BY ONE
+00007C 1A7A                          55          AR    7,10           INCREASE THE AMOUNT OF WITHDRAWALS
+00007E 1B2A                          56          SR    2,10           DECREASE BALANCE WITH THE WITHDRAWALS
+000080 52B0 F127            00127    57          XDECO 11,BLANK       PREPARE OUTPUT
+000084 52A0 F137            00137    58          XDECO 10,BLANK+16    PREPARE OUTPUT
+000088 5220 F14B            0014B    59          XDECO 2,BLANK+36     PREPARE OUTPUT
+00008C E020 F127 004F 00127          60          XPRNT BLANK,79       PREPARE OUTPUT
+000092 47F0 F034            00034    61          BC    B'1111',LOOP   RETURN BACK TO THE LOOP
+                                     62 *
+000096 E020 F127 0001 00127          63 EXIT     XPRNT BLANK,1        PRINT BLANK LINE
+00009C 5230 F238            00238    64          XDECO 3,NOWITHD+36   PREPARE OUTPUT
+0000A0 E020 F214 004F 00214          65          XPRNT NOWITHD,79     PRINT TOTAL SUM
+0000A6 5240 F287            00287    66          XDECO 4,NODEPO+36    PREPARE OUTPUT
+0000AA E020 F263 004F 00263          67          XPRNT NODEPO,79      PRINT TOTAL SUM
+0000B0 5C60 F100            00100    68          M     6,ONE          SET EVEN REGISTER VALUE
+0000B4 1D63                          69          DR    6,3            CALCULATE AVERAGE PER WITHDRAWAL
+0000B6 5270 F2D6            002D6    70          XDECO 7,AVWITHD+36   PREPARE OUTPUT
+0000BA E020 F2B2 004F 002B2          71          XPRNT AVWITHD,79     PRINT LINE
+0000C0 5C80 F100            00100    72          M     8,ONE          SET EVEN REGISTER VALUE
+0000C4 1D84                          73          DR    8,4            CALCULATE AVERAGE PER DEPOSIT
+0000C6 5290 F325            00325    74          XDECO 9,AVDEPO+36    PREPARE OUTPUT
+0000CA E020 F301 004F 00301          75          XPRNT AVDEPO,79      PRINT LINE
+0000D0 07FE                          76          BCR   B'1111',14     RETURN TO OP. SYSTEM
+                                     77 *
+0000D2 E020 F104 0023 00104          78 ERR      XPRNT ERRL,35        PRINT ERROR MESSAGE
+0000D8 07FE                          79          BCR   B'1111',14     RETURN TO OP. SYSTEM
+                                     80 *
+0000DA                               81 CARD     DS    CL35
+0000FD 5C                            82          DC    C'*'           CARD CARRIAGE CONTROL
+000100 00000001                      83 ONE      DC    F'1'
+000104 40C5D9D9D6D940D6              84 ERRL     DC    CL35' ERROR OCURRED DURING EXECUTION'
+000127 4040404040404040              85 BLANK    DC    CL79' '
+000176 404040404040E3D9              86 HEAD1    DC    CL79'      TRANSACTION        AMOUNT         BALANCE'
+0001C5 4040404040404040              87 HEAD2    DC    CL79'        CODE          (IN CENTS)      (IN CENTS)'
+000214 4040404040404040              88 NOWITHD  DC    CL79'        # OF WITHDRAWALS         ='
+000263 4040404040404040              89 NODEPO   DC    CL79'        # OF DEPOSITS            ='
+0002B2 4040404040404040              90 AVWITHD  DC    CL79'         AVG. AMT. PER CHECK     ='
+000301 4040404040404040              91 AVDEPO   DC    CL79'         AVG. AMT. PER DEPOSIT   ='
+                                     92          END   PROG3
+
+***   0 STATEMENTS FLAGGED - 0 WARNINGS, 0 ERRORS
+
+*** PROGRAM EXECUTION BEGINNING -
+ANY OUTPUT BEFORE EXECUTION COMPLETE MESSAGE IS PRODUCED BY USER PROGRAM ***
+
+     TRANSACTION        AMOUNT         BALANCE                                
+       CODE          (IN CENTS)      (IN CENTS)                               
+                                          23536                               
+          0            5735               29271                               
+          1             874               28397                               
+          0             275               28672                               
+          1            1081               27591                               
+          1            6075               21516                               
+          0            9998               31514                               
+          1            1274               30240                               
+          1             770               29470                               
+          0            5578               35048                               
+          0            1954               37002                               
+          1             994               36008                               
+          0            1574               37582                               
+          0            5254               42836                               
+          1             884               41952                               
+          0              41               41993                               
+          1            8880               33113                               
+          1            1990               31123                               
+          0            1085               32208                               
+          0            1474               33682                               
+          0            6660               40342                               
+          1            8888               31454                               
+          0            1515               32969                               
+          0            9768               42737                               
+          1            4284               38453                               
+
+       # OF WITHDRAWALS         =            11                               
+       # OF DEPOSITS            =            13                               
+        AVG. AMT. PER CHECK     =          3272                               
+        AVG. AMT. PER DEPOSIT   =          3916                               
+
+*** EXECUTION COMPLETED ***
+

@@ -1,0 +1,72 @@
+*****************************************************************
+*                                                               *
+* FILE NAME:  PROJECT2            ASSIGNMENT#:  2               *
+*                                                               *
+* AUTHOR __________________________________________             *
+*                     ADRIAN BELOQUI                            *
+*                                                               *
+* COURSE: CSC 25500  SECTION: 11      DUE DATE:  9/29/2016      *
+*                                                               *
+* PURPOSE:  THIS PROGRAM READS AN ARBITRARY NUMBER OF UNKOWN    *
+*           NUMBERS AND COMPUTES THE ALTERNATING SUM/DIFFERENCE *
+*           OF THESE. FOR EACH NUMBER READ AN OUTPUT OF THE     *
+*           NUMBER IS SHOWN. ONCE THE END OF THE FILE IS REACHED*
+*           THE SUM OF THE NUMBER IS PRINTED.                   *
+*                                                               *
+*****************************************************************
+PROG2    CSECT
+         USING PROG2,15
+*
+         SR    2,2            INITIALIZE SUM TO ZERO
+         L     3,TWO          INITIALIZE REG. WITH TWO 
+         L     4,ZERO         INITIALIZE REG. WITH ZERO
+         L     6,ONE          INITIALIZE REG. WITH ONE
+*
+LOOP     XREAD CARD,35        READ CHARACTER FROM INPUT
+         BC    B'0100',EXIT   EXIT ON EOF
+         XDECI 5,CARD         CONVERT INPUT INTO DECIMAL
+         BC    B'0001',ERR    EXIT ON ERROR
+         BC    B'0100',EXIT   TERMINATE PROGRAM IF CARD < 0
+         AR    4,6            ADD ONE TO REGISTER 4
+         BC    B'1000',EVEN   BRANCH IF RESULT IS ZERO
+         BC    B'0010',ODD    BRANCH IF RESULT IS POSITIVE
+*
+ODD      AR    2,5            ADD INPUT TO TOTAL SUM
+         SR    4,3            SUBSTRACT TWO FROM REG. 4
+         XDECO 5,PLINE+20     PREPARE OUTPUT
+         XPRNT PLINE,35       PRINT OUTPUT FOR ONE INPUT
+         BC    B'1111',LOOP   RETURN TO THE LOOP
+*
+EVEN     SR    2,5            SUBSTRACT INPUT FROM TOTAL SUM
+         XDECO 5,PLINE+20     PREPARE OUTPUT
+         XPRNT PLINE,35       PRINT OUTPUT FOR ONE INPUT 
+         BC    B'1111',LOOP   RETURN TO THE LOOP
+*
+EXIT     XPRNT BLANK,1        PRINT BLANK LINE 
+         XDECO 2,TOTAL+20     PREPARE OUTPUT
+         XPRNT TOTAL,35       PRINT TOTAL SUM
+         BCR   B'1111',14     RETURN TO OP. SYSTEM
+*
+ERR      XPRNT ERRL,35        PRINT ERROR MESSAGE
+         BCR   B'1111',14     RETURN TO OP. SYSTEM
+*
+CARD     DS    CL35
+         DC    C'*'           CARD CARRIAGE CONTROL
+ZERO     DC    F'0'
+ONE      DC    F'1'
+TWO      DC    F'2'
+ERRL     DC    CL35' ERROR OCURRED DURING EXECUTION'
+BLANK    DC    CL1' '
+PLINE    DC    CL35' THE NUMBER READ WAS'
+TOTAL    DC    CL35' THE SUM IS:'
+         END   PROG2
+$ENTRY
+36
+14
+8
+27
+58
+61
+93
+26
+-10

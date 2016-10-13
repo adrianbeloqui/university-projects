@@ -1,0 +1,191 @@
+               Adrian Beloqui         CSC 24400     Section 11
+                   Spring 2016       Assignment #7
+------------------------------------------------------------------------------------------------
+
+=====================================================================================
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+20017        Andres        Colonna       Board Room      President        $ 550450.50
+30045        Geoffrey      Murray        Marketing       Ad Manager       $  33928.90
+87023        Jacob         Yanez         Sales           Chief Associate  $  98203.71
+
+-------------------------------------------------------------------------------------
+                                     Total Amount of Payroll             $  682583.06
+*************************************************************************************
+
+
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+12058        Katherine     Walkenhorst   Board Room      President        $ 705390.19
+20017        Andres        Colonna       Board Room      President        $ 550450.50
+30045        Geoffrey      Murray        Marketing       Ad Manager       $  33928.90
+45076        Adrian        Beloqui       IT              Programmer       $  65729.99
+87023        Jacob         Yanez         Sales           Chief Associate  $  98203.71
+99066        Ian           Fitzpatrick   Marketing       Field Associate  $  23570.56
+
+-------------------------------------------------------------------------------------
+                                     Total Amount of Payroll             $ 1477273.88
+*************************************************************************************
+
+
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+12058        Katherine     Walkenhorst   Board Room      President        $ 705390.19
+20017        Andres        Colonna       Board Room      President        $ 550450.50
+30045        Geoffrey      Murray        Marketing       Ad Manager       $  33928.90
+34102        Kayla         Wood          Manufacturing   Division Chief   $  98310.34
+45076        Adrian        Beloqui       IT              Programmer       $  65729.99
+80089        Juwan         Kiing         Accounting      Vice President   $ 103780.90
+87023        Jacob         Yanez         Sales           Chief Associate  $  98203.71
+94099        Karl          Burg          IT              Chief Programmer $ 250555.00
+99066        Ian           Fitzpatrick   Marketing       Field Associate  $  23570.56
+
+-------------------------------------------------------------------------------------
+                                     Total Amount of Payroll             $ 1929920.13
+*************************************************************************************
+
+
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+12058        Katherine     Walkenhorst   Board Room      President        $ 705390.19
+20017        Andres        Colonna       Board Room      President        $ 550450.50
+22129        Farhan        Bobat         Accounting      Chief Acountant  $  54005.22
+29133        Benito        Luongo        Human Resources Chief Actuary    $ 101845.55
+30045        Geoffrey      Murray        Marketing       Ad Manager       $  33928.90
+34102        Kayla         Wood          Manufacturing   Division Chief   $  98310.34
+45076        Adrian        Beloqui       IT              Programmer       $  71120.60
+64149        Karl          Burg          IT              Programmer       $  78920.66
+77113        Gregory       Rothermich    Communications  Division Chief   $  85901.56
+80089        Juwan         Kiing         Accounting      Vice President   $ 103780.90
+87023        Jacob         Yanez         Sales           Chief Associate  $  98203.71
+94099        Karl          Burg          IT              Chief Programmer $ 250555.00
+
+-------------------------------------------------------------------------------------
+                                     Total Amount of Payroll             $ 2232413.00
+*************************************************************************************
+
+
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+12058        Katherine     Walkenhorst   Board Room      President        $ 705390.19
+20017        Andres        Colonna       Board Room      President        $ 550450.50
+22129        Farhan        Bobat         Accounting      Chief Acountant  $  54005.22
+29133        Benito        Luongo        Human Resources Vice President   $ 111234.82
+30045        Geoffrey      Murray        Marketing       Ad Manager       $  33928.90
+34102        Kayla         Wood          Manufacturing   Division Chief   $  98310.34
+45076        Adrian        Beloqui       IT              Programmer       $  71120.60
+64149        Karl          Burg          IT              Programmer       $  78920.66
+67155        Lie           Gu            House Keeping   Division Chief   $  45920.66
+80089        Juwan         Kiing         Accounting      Vice President   $ 103780.90
+87023        Jacob         Yanez         Sales           Chief Associate  $  98203.71
+93160        Micaiah       Skolnick      Sales           Operations Chief $  76321.22
+94099        Karl          Burg          IT              Chief Programmer $ 250555.00
+
+-------------------------------------------------------------------------------------
+                                     Total Amount of Payroll             $ 2278143.00
+*************************************************************************************
+
+
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+93160        Killer        Skolnick      Sales           Operations Chief $  76321.22
+
+*************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+12058        Katherine     Walkenhorst   Board Room      President        $ 705390.19
+20017        Andres        Colonna       Board Room      President        $ 550450.50
+22129        Farhan        Bobat         Accounting      Chief Acountant  $  54005.22
+29133        Benito        Luongo        Human Resources Vice President   $ 111234.82
+30045        Geoffrey      Murray        Marketing       Ad Manager       $  33928.90
+34102        Kayla         Wood          Manufacturing   Division Chief   $  98310.34
+43180        Pepsi         Kola          IT              Programmer       $  57623.44
+45076        Adrian        Beloqui       IT              Programmer       $  71120.60
+55177        Alberto       Ratti         IT              Programmer       $  56780.99
+56199        Paige         Turner        PR              Spokes Person    $  83506.66
+64149        Karl          Burg          IT              Programmer       $  78920.66
+67155        Lie           Gu            House Keeping   Division Chief   $  45920.66
+80089        Juwan         Kiing         Accounting      Vice President   $ 103780.90
+87023        Jacob         Yanez         Sales           Chief Associate  $  98203.71
+88210        Justin        Kase          Sales           Chief Associate  $  87643.50
+93160        Killer        Skolnick      Sales           Operations Chief $  76321.22
+94099        Karl          Burg          IT              Chief Programmer $ 250555.00
+98301        Howdy         Dooty         House Keeping   Shift Manager    $  35670.55
+
+-------------------------------------------------------------------------------------
+                                     Total Amount of Payroll             $ 2599368.00
+*************************************************************************************
+
+
+ID #                Name                 Department      Position         Pay
+-------------------------------------------------------------------------------------
+12058        Katherine     Walkenhorst   Board Room      President        $ 705390.19
+20017        Andres        Colonna       Board Room      President        $ 550450.50
+22129        Farhan        Bobat         Accounting      Chief Acountant  $  54005.22
+22223        Rose          Peddle        IT              Programmer       $  72890.66
+29133        Benito        Luongo        Human Resources Vice President   $ 111234.82
+30045        Geoffrey      Murray        Marketing       Ad Manager       $  33928.90
+34102        Kayla         Wood          Manufacturing   Division Chief   $  98310.34
+43180        Pepsi         Kola          IT              Programmer       $  57623.44
+45076        Adrian        Beloqui       IT              Programmer       $  71120.60
+55177        Alberto       Ratti         IT              Programmer       $  56780.99
+56199        Paige         Samsong       PR              Spokes Person    $  83506.66
+64149        Karl          Burg          IT              Programmer       $  78920.66
+67155        Lie           Gu            House Keeping   Division Chief   $  45920.66
+80089        Juwan         Kiing         Accounting      Vice President   $ 103780.90
+87023        Jacob         Yanez         Sales           Chief Associate  $  98203.71
+87204        Andrew        Carnegie      Maintenance     AC Repairman     $  48789.33
+88210        Justin        Kase          Sales           Chief Associate  $  87643.50
+93160        Killer        Skolnick      Sales           Operations Chief $  76321.22
+94099        Karl          Burg          IT              Chief Programmer $ 250555.00
+98301        Howdy         Dooty         House Keeping   Shift Manager    $  35670.55
+
+-------------------------------------------------------------------------------------
+                                     Total Amount of Payroll             $ 2721048.00
+*************************************************************************************
+
+
+
+------------------------------------------------
+|               END OF PROGRAM OUTPUT          |
+------------------------------------------------

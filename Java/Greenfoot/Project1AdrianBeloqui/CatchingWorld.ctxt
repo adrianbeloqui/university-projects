@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CatchingWorld
+comment0.text=\r\n\ CatchingWorld\ is\ the\ World\ for\ CSC14400\ project\#1.\ It\ will\ have\ a\ Scoreboard,\ a\ CircleMeter,\r\n\ \ \ \ a\ RectangleMeter,\ and\ a\ Truck\ in\ it.\ As\ time\ goes\ by,\ Balls\ will\ be\ added\ (and\ removed)\ \r\n\ \ \ \ to/from\ the\ world.\r\n\ \r\n\ @author\ Stephen\ Blythe\r\n\ @version\ September,\ 2015\r\n
+comment1.params=
+comment1.target=CatchingWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CatchingWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3

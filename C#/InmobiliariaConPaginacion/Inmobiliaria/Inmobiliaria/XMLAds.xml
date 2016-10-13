@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+	<Ad>
+		<ImageUrl>../Design/anuncio1_1.jpg</ImageUrl>
+		<NavigateUrl>../Pages/Default.aspx</NavigateUrl>
+		<AlternateText>Visite el sitio del Anunciante #1</AlternateText>
+		<Impressions>4</Impressions>
+		<Keyword>Anuncio1</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>../Design/anuncio2.jpg</ImageUrl>
+		<NavigateUrl>../Pages/Default.aspx</NavigateUrl>
+		<AlternateText>Visite el sitio del Anunciante #2</AlternateText>
+		<Impressions>3</Impressions>
+		<Keyword>Anuncio2</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>../Design/anuncio3.jpg</ImageUrl>
+		<NavigateUrl>../Pages/Default.aspx</NavigateUrl>
+		<AlternateText>Visite el sitio del Anunciante #3</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Anuncio3</Keyword>
+	</Ad>
+</Advertisements>

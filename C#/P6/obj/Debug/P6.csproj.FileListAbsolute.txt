@@ -1,0 +1,27 @@
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\bin\Debug\P6.exe.config
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\obj\Debug\P6.csprojResolveAssemblyReference.cache
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\obj\Debug\P6.mainForm.resources
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\obj\Debug\P6.Properties.Resources.resources
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\obj\Debug\P6.csproj.GenerateResource.Cache
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\bin\Debug\P6.exe
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\bin\Debug\P6.pdb
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\obj\Debug\P6.exe
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\P6\obj\Debug\P6.pdb
+E:\P6\bin\Debug\P6.exe.config
+E:\P6\obj\Debug\P6.exe
+E:\P6\obj\Debug\P6.pdb
+E:\P6\bin\Debug\P6.exe
+E:\P6\bin\Debug\P6.pdb
+E:\P6\obj\Debug\P6.csprojResolveAssemblyReference.cache
+E:\P6\obj\Debug\P6.mainForm.resources
+E:\P6\obj\Debug\P6.Properties.Resources.resources
+E:\P6\obj\Debug\P6.csproj.GenerateResource.Cache
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\bin\Debug\P6.exe.config
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\obj\Debug\P6.exe
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\obj\Debug\P6.pdb
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\bin\Debug\P6.exe
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\bin\Debug\P6.pdb
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\obj\Debug\P6.csprojResolveAssemblyReference.cache
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\obj\Debug\P6.mainForm.resources
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\obj\Debug\P6.Properties.Resources.resources
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P6\obj\Debug\P6.csproj.GenerateResource.Cache

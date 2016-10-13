@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ \ Projectile\r\n\ \ \ \ \ class\ which\ shows\ a\ single\ ball\ projectile,\ and\ describes\ its\ movement.\r\n\ \r\n\ \ \ \ you\ **WILL**\ need\ to\ add\ code\ to\ this\ class.\ That\ could\ be\ filling\ in\ more\ code\ in\ existing\r\n\ \ \ \ methods,\ adding\ new\ methods,\ and/or\ adding\ instance\ variables.\ It\ is\ 100%\ up\ to\ you\!\r\n\ \r\n\ @author\ Stephen\ Bythe\r\n\ @version\ October\ 2015\r\n
+comment1.params=xVel\ yVel
+comment1.target=Projectile(double,\ double)
+comment1.text=\r\n\ Projectile\r\n\ \r\n\ \ \ constructs\ a\ Projectile\ object\r\n\ \r\n\ \ \ @param\ xVel\ the\ initial\ projectule\ speed\ in\ the\ x\ direction\r\n\ \ \ @param\ yVel\ the\ initial\ projectile\ speed\ in\ the\ y\ direction\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Projectile\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=boolean\ checkCollision()
+comment4.text=\r\n\ checkCollision\ -\ Checks\ if\ the\ projectile\ collisionated\ with\ a\ Truck\ object.\r\n\ \r\n\ \ @return\ Boolean\ value\ depending\ on\ the\ condition\r\n
+numComments=5

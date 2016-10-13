@@ -1,0 +1,92 @@
+
+ASSIST/I Version 2.03, Copyright 1984, BDM Software.                          GRADE RUN FOR: AB
+
+
+                                                                                                                            PAGE 1
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+                                      1 *****************************************************************
+                                      2 *                                                               *
+                                      3 * FILE NAME:  PROJECT2            ASSIGNMENT#:  2               *
+                                      4 *                                                               *
+                                      5 * AUTHOR __________________________________________             *
+                                      6 *                     ADRIAN BELOQUI                            *
+                                      7 *                                                               *
+                                      8 * COURSE: CSC 25500  SECTION: 11      DUE DATE:  9/29/2016      *
+                                      9 *                                                               *
+                                     10 * PURPOSE:  THIS PROGRAM READS AN ARBITRARY NUMBER OF UNKOWN    *
+                                     11 *           NUMBERS AND COMPUTES THE ALTERNATING SUM/DIFFERENCE *
+                                     12 *           OF THESE. FOR EACH NUMBER READ AN OUTPUT OF THE     *
+                                     13 *           NUMBER IS SHOWN. ONCE THE END OF THE FILE IS REACHED*
+                                     14 *           THE SUM OF THE NUMBER IS PRINTED.                   *
+                                     15 *                                                               *
+                                     16 *****************************************************************
+000000                               17 PROG2    CSECT
+000000                               18          USING PROG2,15
+                                     19 *
+000000 1B22                          20          SR    2,2            INITIALIZE SUM TO ZERO
+000002 5830 F098            00098    21          L     3,TWO          INITIALIZE REG. WITH TWO
+000006 5840 F090            00090    22          L     4,ZERO         INITIALIZE REG. WITH ZERO
+00000A 5860 F094            00094    23          L     6,ONE          INITIALIZE REG. WITH ONE
+                                     24 *
+00000E E000 F06A 0023 0006A          25 LOOP     XREAD CARD,35        READ CHARACTER FROM INPUT
+000014 4740 F050            00050    26          BC    B'0100',EXIT   EXIT ON EOF
+000018 5350 F06A            0006A    27          XDECI 5,CARD         CONVERT INPUT INTO DECIMAL
+00001C 4710 F062            00062    28          BC    B'0001',ERR    EXIT ON ERROR
+000020 4740 F050            00050    29          BC    B'0100',EXIT   TERMINATE PROGRAM IF CARD < 0
+000024 1A46                          30          AR    4,6            ADD ONE TO REGISTER 4
+000026 4780 F040            00040    31          BC    B'1000',EVEN   BRANCH IF RESULT IS ZERO
+00002A 4720 F02E            0002E    32          BC    B'0010',ODD    BRANCH IF RESULT IS POSITIVE
+                                     33 *
+00002E 1A25                          34 ODD      AR    2,5            ADD INPUT TO TOTAL SUM
+000030 1B43                          35          SR    4,3            SUBSTRACT TWO FROM REG. 4
+000032 5250 F0D4            000D4    36          XDECO 5,PLINE+20     PREPARE OUTPUT
+000036 E020 F0C0 0023 000C0          37          XPRNT PLINE,35       PRINT OUTPUT FOR ONE INPUT
+00003C 47F0 F00E            0000E    38          BC    B'1111',LOOP   RETURN TO THE LOOP
+                                     39 *
+000040 1B25                          40 EVEN     SR    2,5            SUBSTRACT INPUT FROM TOTAL SUM
+000042 5250 F0D4            000D4    41          XDECO 5,PLINE+20     PREPARE OUTPUT
+000046 E020 F0C0 0023 000C0          42          XPRNT PLINE,35       PRINT OUTPUT FOR ONE INPUT
+00004C 47F0 F00E            0000E    43          BC    B'1111',LOOP   RETURN TO THE LOOP
+                                     44 *
+000050 E020 F0BF 0001 000BF          45 EXIT     XPRNT BLANK,1        PRINT BLANK LINE
+000056 5220 F0F7            000F7    46          XDECO 2,TOTAL+20     PREPARE OUTPUT
+00005A E020 F0E3 0023 000E3          47          XPRNT TOTAL,35       PRINT TOTAL SUM
+000060 07FE                          48          BCR   B'1111',14     RETURN TO OP. SYSTEM
+                                     49 *
+000062 E020 F09C 0023 0009C          50 ERR      XPRNT ERRL,35        PRINT ERROR MESSAGE
+000068 07FE                          51          BCR   B'1111',14     RETURN TO OP. SYSTEM
+
+                                                                                                                            PAGE 2
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+                                     52 *
+00006A                               53 CARD     DS    CL35
+00008D 5C                            54          DC    C'*'           CARD CARRIAGE CONTROL
+000090 00000000                      55 ZERO     DC    F'0'
+000094 00000001                      56 ONE      DC    F'1'
+000098 00000002                      57 TWO      DC    F'2'
+00009C 40C5D9D9D6D940D6              58 ERRL     DC    CL35' ERROR OCURRED DURING EXECUTION'
+0000BF 40                            59 BLANK    DC    CL1' '
+0000C0 40E3C8C540D5E4D4              60 PLINE    DC    CL35' THE NUMBER READ WAS'
+0000E3 40E3C8C540E2E4D4              61 TOTAL    DC    CL35' THE SUM IS:'
+                                     62          END   PROG2
+
+***   0 STATEMENTS FLAGGED - 0 WARNINGS, 0 ERRORS
+
+*** PROGRAM EXECUTION BEGINNING -
+ANY OUTPUT BEFORE EXECUTION COMPLETE MESSAGE IS PRODUCED BY USER PROGRAM ***
+
+THE NUMBER READ WAS          36   
+THE NUMBER READ WAS          14   
+THE NUMBER READ WAS           8   
+THE NUMBER READ WAS          27   
+THE NUMBER READ WAS          58   
+THE NUMBER READ WAS          61   
+THE NUMBER READ WAS          93   
+THE NUMBER READ WAS          26   
+
+THE SUM IS:                  67   
+
+*** EXECUTION COMPLETED ***
+

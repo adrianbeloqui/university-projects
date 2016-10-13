@@ -1,0 +1,49 @@
+Author: Adrian Beloqui
+Date Submitted: 9-6-2016
+Platform: Windows
+
+Steps to compile:
+
+1- Run Eclipse
+2- Go to File -> New -> Java Project
+3- Uncheck the option "Use default location"
+4- Go to Browse and select the folder where this project is
+5- Run the program from Eclipse 
+
+Bugs:
+
+- All the bugs that were identified during the development of the program were fixed.
+- As to the 9-6-2016 no other bugs were found during testing of the program.
+
+Summary:
+
+First, I identified the different entities required and evaluated the different ways that could be used to achieve this development. Second, applied the desired solution to only one entity (airports) and made sure that all the functionality required was working as it asked to. Then, I created the main program that call this entity and made sure that it was meeting the requirements asked. Then, I use this code to replicate it with the other entities and adapted whatever was necessary to accomplish the functionality of each entity. After this, I tested the example given in the guideline. Then, I run two instances of the same problem to make sure the solution was allowing different instances to have real time data. Finally, I run more test to cover all the scenarios that I could think of and made sure the program worked properly.
+
+Log:
+
+9-6-2016
+
+- I added the funcionality to not allow the user to store flights with all the exact same information as flights already stored
+in the system.
+- I added functionality to make sure files were created when they were not in the system.
+
+9-5-2016:
+
+- Run several different test, finding issues with the handling of commands. 
+- Added functionality to alert the user when a command is missing parametrs so the program does not stop working and allows the user to re-enter a command, fixing previous errors.
+- Found a bug that allowed to store a flight even if a city was not listed in the "database". The program prompted an error message, but it stored the flight any way. This was fixed.
+- Added functionality to stop the processing of a command when a city or airline was referenced, but not find in the system.
+- Commented the whole program.
+
+9-4-2016:
+
+- I applied a new algorithm that allows entering the commands all in one line. By using this algorithm I was able to let the user input city names and airline names with spaces in between.
+- I now check if the code for an airport is already in use, if so, an error message prompts letting the user know the problem.
+- I check that the cities exist in the "database" whenever a reference to them is made. It is the case when a flight is added, or when possible connections or direct flights are searched.
+- I successfully tested the code ending up with the exact same output from the guideline given.
+
+9-3-2016:
+
+- Started identifying the entities that are required for the program. I built classes for each entity and an interface that would do all the work regarding each entity. 
+- Started by doing only the destinations cities or airports as I called it. I am not able to read the name of a city with spaces in it without using an ugly solution for the user. It is better to ask for single string than my solution. The method
+nextLine() seems to have some weird functionality. 

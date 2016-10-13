@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Truck
+comment0.text=\r\n\ Truck\r\n\ \ \ should\ move\ back\ and\ forth\ along\ the\ bottom\ of\ the\ screen,\ from\ the\ right\ side\ to\ the\ middle\r\n\ \ \ and\ back\ to\ the\ right,\ and\ then\ back\ to\ the\ middle,\ and\ so\ on.\ \r\n\r\n\ \ \ \ you\ **WILL**\ need\ to\ add\ code\ to\ this\ class.\ That\ could\ be\ filling\ in\ more\ code\ in\ existing\r\n\ \ \ \ methods,\ adding\ new\ methods,\ and/or\ adding\ instance\ variables.\ It\ is\ 100%\ up\ to\ you\!\r\n\ \ \ \ \r\n\ @author\ Stephen\ Blythe\r\n\ @version\ September,\ 2015\r\n
+comment1.params=initXVel
+comment1.target=Truck(double)
+comment1.text=\ \r\n\ Truck\r\n\ \r\n\ \ \ \ \ constructs\ a\ truck\ (but\ does\ not\ add\ it\ to\ the\ wrold).\ Currently,\ this\ does\ nothing\ more\r\n\ \ \ \ \ than\ build\ the\ image\ for\ the\ truck.\ \r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Truck\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=4

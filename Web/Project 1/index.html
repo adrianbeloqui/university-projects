@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Candidates Virtual Poll</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body class="body">
+	<h1 class="main_header">Candidates Virtual Poll</h1>
+	<div class="main">
+		<!--Poll Panel-->
+		<div class="pull_panel">
+			<table class="pull_table" id="pull_candidates">
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<!--Poll Panel Options-->
+		<div class="pull_options">
+			<table>
+				<tbody>
+					<tr>
+						<td class="right">Add a New Candidate:</td> 
+						<td class="left"><input type="text" id="new_candidate"/></td>
+						<td class="left"><button name="add_candidate" id="add_candidate">Add</button></td>
+					</tr>
+					<tr>
+						<td class="right">Delete a Candidate:</td> 
+						<td class="left"><input type="text" id="del_candidate"/></td>
+						<td class="left"><button id="delete_candidate">Delete</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

@@ -1,0 +1,7 @@
+Homer, CS111, 55.0
+Marge, CS435, 98.5
+Bart, CS111, 75.0
+Lisa, CS111, 100.0
+Lisa, CS435, 100.0
+Lisa, CS235, 100.0
+Maggie, CS111, 88.0

@@ -1,0 +1,18 @@
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\bin\Debug\P4 2048.exe.config
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\bin\Debug\P4 2048.exe
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\bin\Debug\P4 2048.pdb
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.csprojResolveAssemblyReference.cache
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4_2048.mainForm.resources
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4_2048.Properties.Resources.resources
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.csproj.GenerateResource.Cache
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.exe
+C:\Users\beloqui\Desktop\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.pdb
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\bin\Debug\P4 2048.exe.config
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.exe
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.pdb
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\bin\Debug\P4 2048.exe
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\bin\Debug\P4 2048.pdb
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.csprojResolveAssemblyReference.cache
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4_2048.mainForm.resources
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4_2048.Properties.Resources.resources
+D:\Disco externo\Adrian\Huntington University\Spring 2015\CS286\C# Projects\game2048\P4 2048\obj\Debug\P4 2048.csproj.GenerateResource.Cache

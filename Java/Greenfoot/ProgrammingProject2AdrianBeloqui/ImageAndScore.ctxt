@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ImageAndScore
+comment0.text=\r\n\ Supports\ statistics\ about\ a\ single\ car\ in\ the\ Demolition\ Derby.\ \r\n\ \r\n\ You\ likely\ will\ NOT\ need\ to\ modify\ this\ class,\ although\ you\ are\ free\ to\ do\ so.\ \r\n\ \r\n\ @author\ Adrian\ Beloqui\r\n\ @version\ December\ 4th,\ 2015\r\n
+comment1.params=icon\ cnum\ score
+comment1.target=ImageAndScore(greenfoot.GreenfootImage,\ int,\ int)
+comment1.text=\r\n\ ImageAndScore\r\n\ \r\n\ @param\ icon\ -\ the\ image\ of\ the\ car\ in\ question\r\n\ @param\ cnum\ -\ the\ car\ number\ of\ the\ car\ in\ question\r\n\ @param\ score\ -\ the\ number\ of\ collisions\ the\ car\ could\ still\ survive\ (most\ likely\ 20)\r\n\ \r\n\ builds\ an\ Actor\ that\ holds\ the\ data\ about\ a\ car.\ \r\n
+comment2.params=newScore
+comment2.target=void\ setScore(int)
+comment2.text=\r\n\ setScore\r\n\ @param\ newScore\ -\ the\ value\ to\ set\ the\ new\ score\ to.\r\n\ \r\n\ mutator\ that\ sets\ the\ score\ in\ the\ displayed\ statistics\r\n
+comment3.params=
+comment3.target=int\ getScore()
+comment3.text=\r\n\ getScore\r\n\ @return\ -\ the\ current\ score\ value\r\n\ \r\n\ accessor\ that\ returns\ the\ current\ number\ of\ collisions\ that\ the\ car\ can\ still\ take\r\n
+comment4.params=
+comment4.target=int\ getNumber()
+comment4.text=\r\n\ getNumber\r\n\ @return\ -\ the\ car\ number\r\n\ \r\n\ accessor\ that\ returns\ the\ car\ number\r\n
+comment5.params=
+comment5.target=void\ decrementScore()
+comment5.text=\r\n\ decrementScore\r\n\ \r\n\ mutator\ that\ essentially\ reords\ that\ there\ is\ one\ more\ hit\ .\r\n
+comment6.params=
+comment6.target=void\ redraw()
+comment6.text=\r\n\ redraw\ \ \ (private)\r\n\ \r\n\ \ \ regenerates\ the\ image\ for\ this\ actor\r\n
+numComments=7

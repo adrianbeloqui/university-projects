@@ -1,0 +1,5 @@
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Entities\bin\Debug\Entities.dll
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Entities\bin\Debug\Entities.pdb
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Entities\obj\Debug\Entities.dll
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Entities\obj\Debug\Entities.pdb

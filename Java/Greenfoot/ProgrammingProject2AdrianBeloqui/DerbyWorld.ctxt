@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DerbyWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DerbyWorld\ here.\r\n\ \r\n\ @author\ Adrian\ Beloqui\r\n\ @version\ December\ 4th,\ 2015\r\n
+comment1.params=
+comment1.target=DerbyWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DerbyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=ImageAndScore[]\ getStatistics()
+comment2.text=\r\n\ Get\ method\ of\ the\ instance\ variable\ 'statistics'\r\n\ \r\n\ @return\ statistics\ -\ array\ holding\ the\ statistics\ of\ the\ game\r\n
+comment3.params=imageName\ number
+comment3.target=greenfoot.GreenfootImage\ selectIcon(java.lang.String,\ int)
+comment3.text=\r\n\ Method\ that\ selects\ the\ correct\ image\ accordingly\ to\ the\ \r\n\ name\ of\ the\ file,\ and\ also\ edits\ the\ image\ drawing\ the\ number\r\n\ of\ the\ car.\r\n\ \r\n\ @param\ imageName\ -\ string\ holding\ color\ of\ the\ car\ desired\r\n\ @param\ number\ -\ int\ number\ of\ the\ car\r\n\ \r\n\ @return\ GreenfootImage\ -\ returns\ an\ object\ of\ type\ GreenfootImage\ \r\n
+comment4.params=
+comment4.target=void\ sort()
+comment4.text=\r\n\ Method\ that\ sorts\ the\ statistics\ of\ the\ game\ applying\ the\ Bubble\ sorting\ algorithm\r\n
+comment5.params=
+comment5.target=void\ printStatistics()
+comment5.text=\r\n\ Method\ that\ removes\ and\ adds\ the\ statistics\ of\ the\ game\ to\ update\ the\ values\r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ Act\ -\ do\ whatever\ the\ DerbyWorld\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=7

@@ -1,0 +1,100 @@
+﻿
+
+#gallery
+{
+    display: none;
+}
+#jgal
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 160px;
+}
+#jgal li
+{
+    opacity: .5;
+    filter: alpha(opacity=50);
+    float: left;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-position: 40% 40%;
+    cursor: pointer;
+    border: 3px solid #fff;
+    outline: 1px solid #ddd;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#jgal li img
+{
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    display: none;
+}
+#jgal li.active img
+{
+    display: block;
+    width: 300px;
+    height: 240px;
+}
+#jgal li.active, #jgal li:hover
+{
+    outline-color: #bbb;
+    opacity: .99;
+    filter: alpha(opacity=99);
+}
+
+
+.style1
+{
+    width: 200px;
+}
+.style2
+{
+    width: 66px;
+}
+.style4
+{
+    width: 167px;
+}
+.style5
+{
+    width: 1108px;
+}
+.style7
+{
+    width: 30px;
+}
+.style8
+{
+    width: 913px;
+    height: 20px;
+}
+.style9
+{
+    height: 80px;
+}
+.style10
+{
+    width: 776px;
+}
+.style11
+{
+    width: 157px;
+}
+
+.style14
+{
+    height: 70px;
+}
+.style15
+{
+    width: 913px;
+}
+
+.style16
+{
+    height: 153px;
+}

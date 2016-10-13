@@ -1,0 +1,7 @@
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Persistence\bin\Debug\Persistence.dll
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Persistence\bin\Debug\Persistence.pdb
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Persistence\bin\Debug\Entities.dll
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Persistence\bin\Debug\Entities.pdb
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Persistence\obj\Debug\Persistence.csprojResolveAssemblyReference.cache
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Persistence\obj\Debug\Persistence.dll
+C:\Users\Sofia\Desktop\Huntington University\Spring 2015\CS286\C# Projects\P5\Persistence\obj\Debug\Persistence.pdb

@@ -1,0 +1,150 @@
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722810\Documents\Visual Studio 2010\Projects\Inmobiliaria2\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria 19-11-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722819\Desktop\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722822\Desktop\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722819\Desktop\Adrian Beloqui\Inmobiliaria\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722819\Desktop\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722819\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\user\Desktop\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722810\Desktop\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722819\Desktop\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722819\Desktop\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.dll
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Inmobiliaria.pdb
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.dll
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.dll
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.dll
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Entidades.pdb
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\ReglasDeNegocios.pdb
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\bin\Persistencia.pdb
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.dll
+C:\Users\722810\Desktop\a modificar\a modificar\21-12\Inmobiliaria17-12-12\Inmobiliaria17-12-12\Inmobiliaria14-12-12\Inmobiliaria13-12-12\Inmobiliaria\Inmobiliaria\obj\Debug\Inmobiliaria.pdb

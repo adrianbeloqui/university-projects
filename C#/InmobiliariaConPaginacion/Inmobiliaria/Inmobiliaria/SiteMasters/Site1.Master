@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Inmobiliaria.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">       
+            <div class="title">
+                <!--<h1>
+                    Inmobiliaria TATA!!
+                </h1>-->
+            </div>
+            <div class="loginDisplay">
+            <asp:ImageButton ID="imgBtnLogin"  runat="server" Width="40px" Height="40px" 
+                onclick="imgBtnLogin_Click"/>
+         
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Pages/Default.aspx" Text="Home"/> 
+                        <asp:MenuItem NavigateUrl="~/Pages/NuestraEmpresa.aspx" Text="Nuestra Empresa"/>
+                        <asp:MenuItem NavigateUrl="~/Pages/Contacto.aspx" Text="Contacto"/>                    
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="principal">
+        <div class="hyperLink">
+        <asp:HyperLink ID="PanelAdmin" NavigateUrl="~/Admin/PanelDeAdministracion.aspx" Text="Panel de Administración" 
+         ToolTip="Ingrese al panel de Administrador" Font-Bold="true" runat="server" CssClass="hyperLink" ></asp:HyperLink>
+         </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        Derechos Reservados. Adrian B, Martin C, Joaquin L y Matias S.
+    </div>
+    </div>
+    </form>
+</body>
+</html>

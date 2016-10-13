@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CircleMeter
+comment0.text=\r\n\ CircleleMeter\ is\ a\ class\ that\ gives\ the\ user\ the\ ability\ to\ increase\ or\ decrease\ a\ percent\ \r\n\ \ \ filled\ inside\ of\ a\ semi-circle.\ This\ accomplished\ by\ pressing\ the\ left\ arrow\ (to\ decrease)\ \r\n\ \ \ or\ a\ roght\ arrow\ (to\ increase).\ \r\n\ \ \ \r\n\ \ \ Although\ you\ are\ welcome\ to\ modify\ this\ code,\ doing\ so\ is\ HIGHLY\ inadvisable.\ If\ you\ \r\n\ \ \ feel\ the\ need\ to\ do\ so,\ you\ are\ likely\ making\ this\ MUCH\ harder\ than\ it\ should\ be.\ \r\n\ \r\n\ @author\ Stephen\ Blythe\r\n\ @version\ July,\ 2015\r\n
+comment1.params=radius
+comment1.target=CircleMeter(int)
+comment1.text=\r\n\ CircleMeter\ constructs\ a\ CircleMeter,\ oriented\ from\ 0\ to\ 90\ degrees\ (first\ quadrant)\ of\r\n\ specified\ radius.\r\n\ \r\n\ @param\ radius\ the\ radius\ of\ the\ underlying\ circle\r\n\ \r\n
+comment2.params=
+comment2.target=void\ redraw()
+comment2.text=\r\n\ redraw\:\r\n\ \r\n\ \ \ based\ on\ how\ full\ the\ meter\ is\ suposed\ to\ be,\ redraw\ it\r\n
+comment3.params=
+comment3.target=double\ getAngle()
+comment3.text=\r\n\ getAngle\ returns\ the\ internally\ user\ selected\ angle\ in\ degrees\r\n\ \r\n\ @return\ the\ value\ in\ degrees\ of\ the\ curren\ fill\ point\r\n
+comment4.params=
+comment4.target=int\ getArcX()
+comment4.text=\r\n\ getArcX\ returns\ the\ selected\ x\ location\ on\ ege\ of\ Actor\r\n\ \r\n\ @return\ the\ x\ point\ on\ the\ edge\ of\ the\ arc\ exactly\ where\ the\ filled\ portion\ ends.\r\n
+comment5.params=
+comment5.target=int\ getArcY()
+comment5.text=\r\n\ getArcY\ returns\ the\ selected\ y\ location\ on\ ege\ of\ Actor\r\n\ \r\n\ @return\ the\ y\ point\ on\ the\ edge\ of\ the\ arc\ exactly\ where\ the\ filled\ portion\ ends.\r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ act\ increases\ or\ decreases\ internal\ angle\ based\ on\ user\ interaction\ \ \ \r\n
+numComments=7

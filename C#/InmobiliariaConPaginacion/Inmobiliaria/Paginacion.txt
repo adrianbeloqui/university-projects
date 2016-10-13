@@ -1,0 +1,63 @@
+ Int32 nuevaLista = listaVentas.Count + listaAlquileres.Count;
+            ArrayList listaAlquileresVentas = new ArrayList();
+            int j = 0;
+            int index = 0;
+            while (index < listaVentas.Count && j < listaAlquileres.Count)
+            {
+                listaAlquileresVentas.Add(listaVentas[index]);
+                listaAlquileresVentas.Add(listaAlquileres[j]);
+                index++;
+                j++;
+            }
+            if (index < listaVentas.Count)
+            {
+                for (int a = index; a < listaVentas.Count; a++)
+                {
+                    listaAlquileresVentas.Add(listaVentas[a]);
+                }
+            }
+            if (j < listaAlquileres.Count)
+            {
+                for (int b = j; b < listaAlquileres.Count; b++)
+                {
+                    listaAlquileresVentas.Add(listaAlquileres[b]);
+                }
+            }
+
+
+            int c = 5;
+            if (Session["Cantidad"] != null)
+            {
+                c = Convert.ToInt32(Session["Cantidad"]);
+
+            }
+
+            btnAnterior.Visible = true;
+            btnSiguiente.Visible = true;
+            int div = listaAlquileresVentas.Count / c;
+            int resto = listaAlquileresVentas.Count % c;
+            if (resto > 0)
+            {
+                div += 1;
+            }
+            int pagina = Convert.ToInt32(Request["pagina"]);
+            if (pagina == 0)
+            {
+                btnAnterior.Visible = false;
+            }
+            if (pagina == div - 1 || listaAlquileresVentas.Count == 0)
+            {
+                btnSiguiente.Visible = false;
+            }
+
+            lblActual.Text = ("Pagina " + (pagina + 1).ToString());
+            lblCantidad.Text = "Mostrando hasta 5 resultados";
+
+            if (Convert.ToInt32(Session["Cantidad"]) == 10)
+            {
+                lblCantidad.Text = "Mostrando hasta 10 resultados";
+            }
+            if (Convert.ToInt32(Session["Cantidad"]) == 15)
+            {
+                lblCantidad.Text = "Mostrando hasta 15 resultados";
+            }

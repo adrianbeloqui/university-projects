@@ -1,0 +1,92 @@
+/** Site Layout **/
+
+.body {
+	background-color: black;
+	height: 100%;
+}
+
+.main_header {
+	color: white;
+	text-align: center;
+	margin-top: 1%;
+	font-size: 60pt;
+}
+
+.center {
+	text-align: center;
+	width: 3%;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.welcome_div {
+	color: gray;
+	text-align: center;
+	margin-top: 1%;
+	font-size: 24pt;
+}
+
+
+/** Poll Layout **/
+
+.main {
+	padding-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 30px;
+	background-color: white;
+	height: 500px;
+}
+
+.pull_panel {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	height: 250px;
+	border: 1px solid black;
+	overflow-y: auto;
+}
+
+.pull_options {
+	padding-top: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 1%;
+	background-color: white;
+}
+
+.pull_table {
+	margin: 0;
+	width: 100%;
+}
+
+.status_bar_tr {
+	width: 80%;
+}
+
+.check_image {
+	width: 20px;
+	height: 20px;
+}
+
+.status_bar {
+	background-color: #7CFC00;
+	width: 0%;
+	height: 20px;
+	text-align: center;
+}
+
+.candidate_name {
+	padding-left: 5px;
+}
+
+.votes {
+	text-align: center;
+	width: 6%;
+}

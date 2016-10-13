@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89A67A95-7CC2-4635-9D51-ACEC9A2280CB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inmobiliaria</RootNamespace>
+    <AssemblyName>Inmobiliaria</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Ingresar.aspx" />
+    <Content Include="Account\Salir.aspx" />
+    <Content Include="Admin\AgregarFoto.aspx" />
+    <Content Include="Admin\ListaDeMensajes.aspx" />
+    <Content Include="Admin\ListadoDeInmuebles.aspx" />
+    <Content Include="Admin\MostrarMensaje.aspx" />
+    <Content Include="Admin\PanelDeAdministracion.aspx" />
+    <Content Include="Design\addHouse.png" />
+    <Content Include="Design\anuncio1_1.jpg" />
+    <Content Include="Design\anuncio2.jpg" />
+    <Content Include="Design\anuncio3.jpg" />
+    <Content Include="Design\bannerinicio.png" />
+    <Content Include="Design\login1.png" />
+    <Content Include="Design\logout.png" />
+    <Content Include="Design\seeListing.jpg" />
+    <Content Include="Design\seeMessages.jpg" />
+    <Content Include="Design\verMensaje.jpg" />
+    <Content Include="Styles\StyleBuscador.css" />
+    <Content Include="UserControls\ListaInmuebles.ascx" />
+    <Content Include="UserControls\NodoListado.ascx" />
+    <Content Include="Scripts\Galeria.js" />
+    <Content Include="Scripts\javascript.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="UserControls\Mensaje.ascx" />
+    <Content Include="Admin\IngresarInmueble.aspx" />
+    <Content Include="Admin\ModificarInmueble.aspx" />
+    <Content Include="UserControls\Buscador.ascx" />
+    <Content Include="Pages\Contacto.aspx" />
+    <Content Include="UserControls\FormularioInmueble.ascx" />
+    <Content Include="Pages\NuestraEmpresa.aspx" />
+    <Content Include="Pages\Descripcion.aspx" />
+    <Content Include="Scripts\jsfotos.js" />
+    <Content Include="Scripts\JSFormulario.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Pages\Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\StyleDescripcion.css" />
+    <Content Include="Styles\StyleFormularioInm.css" />
+    <Content Include="Styles\StyleNodoListado.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="XMLAds.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\Ingresar.aspx.cs">
+      <DependentUpon>Ingresar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Ingresar.aspx.designer.cs">
+      <DependentUpon>Ingresar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Salir.aspx.cs">
+      <DependentUpon>Salir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Salir.aspx.designer.cs">
+      <DependentUpon>Salir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AgregarFoto.aspx.cs">
+      <DependentUpon>AgregarFoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AgregarFoto.aspx.designer.cs">
+      <DependentUpon>AgregarFoto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ListaDeMensajes.aspx.cs">
+      <DependentUpon>ListaDeMensajes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ListaDeMensajes.aspx.designer.cs">
+      <DependentUpon>ListaDeMensajes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ListadoDeInmuebles.aspx.cs">
+      <DependentUpon>ListadoDeInmuebles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ListadoDeInmuebles.aspx.designer.cs">
+      <DependentUpon>ListadoDeInmuebles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MostrarMensaje.aspx.cs">
+      <DependentUpon>MostrarMensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MostrarMensaje.aspx.designer.cs">
+      <DependentUpon>MostrarMensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PanelDeAdministracion.aspx.cs">
+      <DependentUpon>PanelDeAdministracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PanelDeAdministracion.aspx.designer.cs">
+      <DependentUpon>PanelDeAdministracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ListaInmuebles.ascx.cs">
+      <DependentUpon>ListaInmuebles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ListaInmuebles.ascx.designer.cs">
+      <DependentUpon>ListaInmuebles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Mensaje.ascx.cs">
+      <DependentUpon>Mensaje.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Mensaje.ascx.designer.cs">
+      <DependentUpon>Mensaje.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NodoListado.ascx.cs">
+      <DependentUpon>NodoListado.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NodoListado.ascx.designer.cs">
+      <DependentUpon>NodoListado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\IngresarInmueble.aspx.cs">
+      <DependentUpon>IngresarInmueble.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\IngresarInmueble.aspx.designer.cs">
+      <DependentUpon>IngresarInmueble.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ModificarInmueble.aspx.cs">
+      <DependentUpon>ModificarInmueble.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ModificarInmueble.aspx.designer.cs">
+      <DependentUpon>ModificarInmueble.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Buscador.ascx.cs">
+      <DependentUpon>Buscador.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Buscador.ascx.designer.cs">
+      <DependentUpon>Buscador.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Contacto.aspx.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Contacto.aspx.designer.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FormularioInmueble.ascx.cs">
+      <DependentUpon>FormularioInmueble.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\FormularioInmueble.ascx.designer.cs">
+      <DependentUpon>FormularioInmueble.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NuestraEmpresa.aspx.cs">
+      <DependentUpon>NuestraEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\NuestraEmpresa.aspx.designer.cs">
+      <DependentUpon>NuestraEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Descripcion.aspx.cs">
+      <DependentUpon>Descripcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Descripcion.aspx.designer.cs">
+      <DependentUpon>Descripcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteMasters\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMasters\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMasters\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMasters\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteMasters\Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{03F2ED23-FA53-4E36-9367-D6F534012288}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReglasDeNegocios\ReglasDeNegocios.csproj">
+      <Project>{DD6D07A8-8B84-4EE5-9DD7-C60528520DED}</Project>
+      <Name>ReglasDeNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteMasters\Site1.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49376</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

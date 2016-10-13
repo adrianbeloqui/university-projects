@@ -1,0 +1,94 @@
+*****************************************************************
+*                                                               *
+* FILE NAME:  PROJECT3            ASSIGNMENT#:  3               *
+*                                                               *
+* AUTHOR __________________________________________             *
+*                     ADRIAN BELOQUI                            *
+*                                                               *
+* COURSE: CSC 25500  SECTION: 11      DUE DATE:  10/13/2016     *
+*                                                               *
+* PURPOSE:  THIS PROGRAM READS AN EXTERNAL TEXT FILE WITH MORE  *
+*           THAN ONE NUMBER IN EACH LINE. IT PROCESS THE DATA   *
+*           AS A DEPOSIT OR WITHDRAWAL BY COMPUTING THE BALANCE *
+*           REMAINING IN THE ACCOUNT AFTER THE TRANSACTION HAS  *
+*           BEEN PROCESSED AND PRINTED. THEN THE PROGRAM PRINTS *
+*           A SUMMARY SECTION.                                  *
+*                                                               *
+*****************************************************************
+PROG3    CSECT
+         USING PROG3,15
+*
+         SR    2,2            ACCOUNT BALANCE
+         SR    3,3            NUMBER OF WITHDRAWALS
+         SR    4,4            NUMBER OF DEPOSITS
+         SR    7,6            TOTAL WITHDRAWALS
+         SR    9,8            TOTAL DEPOSITS
+*
+         XREAD CARD,35
+         BC    B'0100',EXIT   EXIT ON EOF
+         XDECI 11,CARD        CONVERT INPUT INTO DECIMAL
+         BC    B'0001',ERR    EXIT ON ERROR
+         AR    2,11           SET INITIAL BALANCE
+         XPRNT HEAD1,79       PRINT FIRST HEADER
+         XPRNT HEAD2,79       PRINT SECOND HEADER
+         XDECO 2,BLANK+36     PREPARE OUTPUT
+         XPRNT BLANK,79       PRINT INITIAL BALANCE
+LOOP     XREAD CARD,35        READ CHARACTER FROM INPUT
+         BC    B'0100',EXIT   EXIT ON EOF
+         XDECI 11,CARD        CONVERT INPUT INTO DECIMAL
+         BC    B'0001',ERR    EXIT ON ERROR
+         BC    B'0010',WITHD  BRANCH IF NUMBER IS EQUAL TO ONE
+         XDECI 10,0(1)        GET SECOND NUMBER FROM INPUT
+         BC    B'0001',ERR    EXIT ON ERROR
+         A     4,ONE          INCREASE NUMBER OF DEPOSITS BY ONE
+         AR    9,10           INCREASE THE AMOUNT OF DEPOSITS
+         AR    2,10           INCREASE BALANCE WITH THE DEPOSIT
+         XDECO 11,BLANK       PREPARE OUTPUT
+         XDECO 10,BLANK+16    PREPARE OUTPUT
+         XDECO 2,BLANK+36     PREPARE OUTPUT
+         XPRNT BLANK,79       PRINT LINE
+         BC    B'1111',LOOP   RETURN BACK TO THE LOOP
+*
+WITHD    XDECI 10,0(1)        GET SECOND NUMBER FROM INPUT
+         BC    B'0001',ERR    EXIT ON ERROR
+         A     3,ONE          INCREASE NUMBER OF WITHDRAWALS BY ONE
+         AR    7,10           INCREASE THE AMOUNT OF WITHDRAWALS
+         SR    2,10           DECREASE BALANCE WITH THE WITHDRAWALS
+         XDECO 11,BLANK       PREPARE OUTPUT
+         XDECO 10,BLANK+16    PREPARE OUTPUT
+         XDECO 2,BLANK+36     PREPARE OUTPUT
+         XPRNT BLANK,79       PREPARE OUTPUT
+         BC    B'1111',LOOP   RETURN BACK TO THE LOOP
+*
+EXIT     XPRNT BLANK,1        PRINT BLANK LINE
+         XDECO 3,NOWITHD+36   PREPARE OUTPUT
+         XPRNT NOWITHD,79     PRINT TOTAL SUM
+         XDECO 4,NODEPO+36    PREPARE OUTPUT
+         XPRNT NODEPO,79      PRINT TOTAL SUM
+         M     6,ONE          SET EVEN REGISTER VALUE
+         DR    6,3            CALCULATE AVERAGE PER WITHDRAWAL
+         XDECO 7,AVWITHD+36   PREPARE OUTPUT
+         XPRNT AVWITHD,79     PRINT LINE
+         M     8,ONE          SET EVEN REGISTER VALUE
+         DR    8,4            CALCULATE AVERAGE PER DEPOSIT
+         XDECO 9,AVDEPO+36    PREPARE OUTPUT
+         XPRNT AVDEPO,79      PRINT LINE
+         BCR   B'1111',14     RETURN TO OP. SYSTEM
+*
+ERR      XPRNT ERRL,35        PRINT ERROR MESSAGE
+         BCR   B'1111',14     RETURN TO OP. SYSTEM
+*
+CARD     DS    CL35
+         DC    C'*'           CARD CARRIAGE CONTROL
+ONE      DC    F'1'
+ERRL     DC    CL35' ERROR OCURRED DURING EXECUTION'
+BLANK    DC    CL79' '
+HEAD1    DC    CL79'      TRANSACTION        AMOUNT         BALANCE'
+HEAD2    DC    CL79'        CODE          (IN CENTS)      (IN CENTS)'
+NOWITHD  DC    CL79'        # OF WITHDRAWALS         ='
+NODEPO   DC    CL79'        # OF DEPOSITS            ='
+AVWITHD  DC    CL79'         AVG. AMT. PER CHECK     ='
+AVDEPO   DC    CL79'         AVG. AMT. PER DEPOSIT   ='
+         END   PROG3
+$ENTRY DATA3.TXT
+

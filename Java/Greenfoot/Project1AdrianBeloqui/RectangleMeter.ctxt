@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RectangleMeter
+comment0.text=\r\n\ RectangleMeter\ is\ a\ class\ that\ gives\ the\ user\ the\ ability\ to\ increase\ or\ decrease\ a\ percent\ \r\n\ \ \ filled\ inside\ of\ a\ Rectangle.\ This\ accomplished\ by\ pressing\ the\ left\ arrow\ (to\ decrease)\ \r\n\ \ \ or\ a\ right\ arrow\ (to\ increase).\ \r\n\ \ \r\n\ \ \ Although\ you\ are\ welcome\ to\ modify\ this\ code,\ doing\ so\ is\ HIGHLY\ inadvisable.\ If\ you\ \r\n\ \ \ feel\ the\ need\ to\ do\ so,\ you\ are\ likely\ making\ this\ MUCH\ harder\ than\ it\ should\ be.\ \r\n\ \r\n\ @author\ Stephen\ Blythe\r\n\ @version\ July,\ 2015\r\n
+comment1.params=length
+comment1.target=RectangleMeter(int)
+comment1.text=\r\n\ RectangleMeter\ constructs\ a\ (horizontal)\ RectangleMeter\ that\ is\ the\ specified\ width\ and\ \r\n\ 20\ pixels\ high\r\n\ \r\n\ @param\ length\ the\ width\ of\ the\ rectangle\ meter\r\n\ \r\n\ \r\n
+comment2.params=
+comment2.target=void\ redraw()
+comment2.text=\r\n\ redraw\:\r\n\ \r\n\ \ \ based\ on\ how\ full\ the\ meter\ is\ suposed\ to\ be,\ redraw\ it\r\n
+comment3.params=
+comment3.target=double\ getFilledRatio()
+comment3.text=\r\n\ getFilledRatio\ returns\ the\ percent\ fullness\ of\ the\ meter\r\n\ \r\n\ @return\ the\ percentage\ filled\ (as\ a\ ratio,\ always\ positive\ and\ no\ more\ than\ 1)\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ act\ increases\ or\ decreases\ based\ on\ user\ interaction\r\n
+numComments=5

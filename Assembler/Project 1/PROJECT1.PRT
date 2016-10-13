@@ -1,0 +1,93 @@
+
+ASSIST/I Version 2.03, Copyright 1984, BDM Software.                          GRADE RUN FOR: AB
+
+
+                                                                                                                            PAGE 1
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+                                      1 *****************************************************************
+                                      2 *                                                               *
+                                      3 * FILE NAME:  PROJECT1            ASSIGNMENT#:  1               *
+                                      4 *                                                               *
+                                      5 * AUTHOR __________________________________________             *
+                                      6 *                     ADRIAN BELOQUI                            *
+                                      7 *                                                               *
+                                      8 * COURSE: CSC 25500  SECTION: 11      DUE DATE:  9/15/2016      *
+                                      9 *                                                               *
+                                     10 * PURPOSE:  THIS PROGRAM CALCULATES THE GROSS WIEGHT OF A SET   *
+                                     11 *           OF TRUCKS.  IT READS THE WIEGHT OF EACH TRUCK FROM  *
+                                     12 *           THE CONSOLE KEYBOARD AND ACCUMULATES THE TOTAL      *
+                                     13 *           WEIGHT OF ALL THE TRUCKS.  THE TOTAL GROSS WEIGHT IS*
+                                     14 *           PRINTED UPON INPUT OF END OF FILE MARKER            *
+                                     15 *                                                               *
+                                     16 *****************************************************************
+
+000000                               18 WEIGHT   CSECT
+000000                               19          USING WEIGHT,15
+                                     20 *
+000000 E020 F0D6 001F 000D6          21          XPRNT PROMPT,31      ISSUE PROMPT
+000006 E000 F05F 004F 0005F          22          XREAD CARD,79        READ THE FIRST INPUT LINE
+00000C 4740 F048            00048    23          BC    B'0100',EXIT   EXIT ON EOF
+000010 5330 F05F            0005F    24          XDECI 3,CARD         GET TRUCK'S WEIGHT
+000014 4710 F048            00048    25          BC    B'0001',EXIT   EXIT ON INVALID DATA
+                                     26 *
+000018 E020 F04A 0014 0004A          27 MORE     XPRNT EPRTMSG,20     ECHO PRINT OUTPUT HEADER
+00001E E020 F05E 004F 0005E          28          XPRNT CARD-1,79      ECHO PRINT THE INPUT LINE
+000024 E020 F0D6 001F 000D6          29          XPRNT PROMPT,31      ISSUE PROMPT
+00002A E000 F05F 004F 0005F          30          XREAD CARD,79        READ NEXT INPUT LINE
+000030 4740 F03E            0003E    31          BC    B'0100',PRINT  GO PRINT RESULTS ON EOF
+000034 5340 F05F            0005F    32          XDECI 4,CARD         GET INPUT TRUCK'S WEIGHT
+000038 1A34                          33          AR    3,4            MAINTAIN RUNNING TOTAL
+00003A 47F0 F018            00018    34          BC    B'1111',MORE   GO GET ANOTHER TRUCK'S WEIGHT
+                                     35 *
+00003E 5230 F0C8            000C8    36 PRINT    XDECO 3,PLINE+26     PLACE SUM IN PRINT LINE
+000042 E020 F0AE 0028 000AE          37          XPRNT PLINE,40       PRINT THE TOTAL
+                                     38 *
+000048 07FE                          39 EXIT     BCR   B'1111',14     EXIT PROGRAM
+
+                                     41 *
+00004A F0C9D5D7E4E340C5              42 EPRTMSG  DC    CL20'0INPUT ECHOED:'
+00005E 40                            43          DC    C' '           CARD CARRIAGE CONTROL
+00005F                               44 CARD     DS    CL79           STORAGE FOR INPUT LINE
+0000AE F040E3C8C540E3D6              45 PLINE    DC    CL40'0 THE TOTAL GROSS WEIGHT ='
+0000D6 F0C5D5E3C5D940E3              46 PROMPT   DC    CL31'0ENTER THE NEXT TRUCK''S WEIGHT.'
+                                     47 *
+                                     48          END   WEIGHT
+
+***   0 STATEMENTS FLAGGED - 0 WARNINGS, 0 ERRORS
+
+*** PROGRAM EXECUTION BEGINNING -
+ANY OUTPUT BEFORE EXECUTION COMPLETE MESSAGE IS PRODUCED BY USER PROGRAM ***
+
+
+ENTER THE NEXT TRUCK'S WEIGHT.
+
+INPUT ECHOED:      
+1234                                                                          
+
+ENTER THE NEXT TRUCK'S WEIGHT.
+
+INPUT ECHOED:      
+2345                                                                          
+
+ENTER THE NEXT TRUCK'S WEIGHT.
+
+INPUT ECHOED:      
+3456                                                                          
+
+ENTER THE NEXT TRUCK'S WEIGHT.
+
+INPUT ECHOED:      
+4567                                                                          
+
+ENTER THE NEXT TRUCK'S WEIGHT.
+
+INPUT ECHOED:      
+3221                                                                          
+
+ENTER THE NEXT TRUCK'S WEIGHT.
+
+ THE TOTAL GROSS WEIGHT =       14823  
+
+*** EXECUTION COMPLETED ***
+
