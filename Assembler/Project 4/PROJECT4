@@ -1,0 +1,118 @@
+*****************************************************************
+*                                                               *
+* FILE NAME:  PROJECT4            ASSIGNMENT#:  4               *
+*                                                               *
+* AUTHOR __________________________________________             *
+*                     ADRIAN BELOQUI                            *
+*                                                               *
+* COURSE: CSC 25500  SECTION: 11      DUE DATE:  10/27/2016     *
+*                                                               *
+* PURPOSE:  THIS PROGRAM READS AN EXTERNAL TEXT FILE WITH MORE  *
+*           THAN ONE NUMBER IN EACH LINE. IT PROCESS THE DATA   *
+*           AS THE DIMENTIONS OF A WATER TANK AN CALCULATES THE *
+*           VOLUME OF IT. THEN IT CALCULATES THE 80% OF THE     *
+*           CAPACITY OF THE TANK AND PRINTS THE WHOLE LINE      *
+*           FORMATTED.                                          *
+*                                                               *
+*****************************************************************
+PROG4    CSECT
+         USING PROG4,15
+*
+         SR    2,2            TANK'S LENGTH
+         SR    3,3            THAN'S WIDTH
+         SR    4,4            TANK'S DEPTH
+         LA    5,64           INITIALIZE A BLANK
+*
+         XPRNT HEAD1,79       PRINT FIRST HEADER
+         XPRNT HEAD2,79       PRINT SECOND HEADER
+         XPRNT HEAD3,79       PRINT THIRD HEADER
+LOOP     XREAD CARD,79        READ CHARACTER FROM INPUT
+         BC    B'0100',EXIT   EXIT ON EOF
+         XDECI 2,CARD         CONVERT INPUT INTO DECIMAL (LENGTH)
+         BC    B'0001',ERR    EXIT ON ERROR
+         XDECI 3,0(1)         CONVERT INPUT INTO DECIMAL (WIDTH)
+         BC    B'0001',ERR    EXIT ON ERROR
+         XDECI 4,0(1)         CONVERT INPUT INTO DECIMAL (DEPTH)
+         BC    B'0001',ERR    EXIT ON ERROR
+         LR    7,2            COPY THE LENGTH TO ANOTHER REGISTER
+         MR    6,3            MULTIPLY LENGTH BY WIDTH
+         MR    6,4            MULTIPLY LENGTH AND WIDTH BY DEPTH
+         LR    11,7           COPY VOLUME TO ANOTHER REGISTER
+         M     6,=F'748'      CONVERT INTO GALLONS
+         D     6,=F'100'      CONVERT INTO GALLONS
+         M     10,=F'59840'   CONVERT INTO GALLONS
+         D     10,=F'10000'   CALCULATE 80% OF CAPACITY
+         XDECO 2,BLANK        PREPARE OUTPUT
+         IC    8,BLANK+10     MOVE LENGTH VALUE TO THE LEFT
+         STC   8,BLANK+5      MOVE LENGTH VALUE TO THE LEFT
+         IC    8,BLANK+11     MOVE LENGTH VALUE TO THE LEFT
+         STC   8,BLANK+6      MOVE LENGTH VALUE TO THE LEFT
+         STC   5,BLANK+10     MOVE LENGTH VALUE TO THE LEFT
+         STC   5,BLANK+11     MOVE LENGTH VALUE TO THE LEFT
+         XDECO 3,BLANK+13     PREPARE OUTPUT
+         IC    8,BLANK+23     MOVE WIDTH VALUE TO THE LEFT
+         STC   8,BLANK+12     MOVE WIDTH VALUE TO THE LEFT
+         IC    8,BLANK+24     MOVE WIDTH VALUE TO THE LEFT
+         STC   8,BLANK+13     MOVE WIDTH VALUE TO THE LEFT
+         STC   5,BLANK+23     MOVE WIDTH VALUE TO THE LEFT
+         STC   5,BLANK+24     MOVE WIDTH VALUE TO THE LEFT
+         XDECO 4,BLANK+26     PREPARE OUTPUT
+         IC    8,BLANK+36     MOVE DEPTH VALUE TO THE LEFT
+         STC   8,BLANK+20     MOVE DEPTH VALUE TO THE LEFT
+         IC    8,BLANK+37     MOVE DEPTH VALUE TO THE LEFT
+         STC   8,BLANK+21     MOVE DEPTH VALUE TO THE LEFT
+         STC   5,BLANK+36     MOVE DEPTH VALUE TO THE LEFT
+         STC   5,BLANK+37     MOVE DEPTH VALUE TO THE LEFT
+         XDECO 7,BLANK+39     PREPARE OUTPUT
+         IC    8,BLANK+46     MOVE VOLUME VALUE TO THE LEFT
+         STC   8,BLANK+28     MOVE VOLUME VALUE TO THE LEFT
+         IC    8,BLANK+47     MOVE VOLUME VALUE TO THE LEFT
+         STC   8,BLANK+29     MOVE VOLUME VALUE TO THE LEFT
+         IC    8,BLANK+48     MOVE VOLUME VALUE TO THE LEFT
+         STC   8,BLANK+30     MOVE VOLUME VALUE TO THE LEFT
+         IC    8,BLANK+49     MOVE VOLUME VALUE TO THE LEFT
+         STC   8,BLANK+31     MOVE VOLUME VALUE TO THE LEFT
+         IC    8,BLANK+50     MOVE VOLUME VALUE TO THE LEFT
+         STC   8,BLANK+32     MOVE VOLUME VALUE TO THE LEFT
+         STC   5,BLANK+46     MOVE VOLUME VALUE TO THE LEFT
+         STC   5,BLANK+47     MOVE VOLUME VALUE TO THE LEFT
+         STC   5,BLANK+48     MOVE VOLUME VALUE TO THE LEFT
+         STC   5,BLANK+49     MOVE VOLUME VALUE TO THE LEFT
+         STC   5,BLANK+50     MOVE VOLUME VALUE TO THE LEFT
+         XDECO 11,BLANK+52    PREPARE OUTPUT
+         IC    8,BLANK+59     MOVE 80% VALUE TO THE LEFT
+         STC   8,BLANK+40     MOVE 80% VALUE TO THE LEFT
+         IC    8,BLANK+60     MOVE 80% VALUE TO THE LEFT
+         STC   8,BLANK+41     MOVE 80% VALUE TO THE LEFT
+         IC    8,BLANK+61     MOVE 80% VALUE TO THE LEFT
+         STC   8,BLANK+42     MOVE 80% VALUE TO THE LEFT
+         IC    8,BLANK+62     MOVE 80% VALUE TO THE LEFT
+         STC   8,BLANK+43     MOVE 80% VALUE TO THE LEFT
+         IC    8,BLANK+63     MOVE 80% VALUE TO THE LEFT
+         STC   8,BLANK+44     MOVE 80% VALUE TO THE LEFT
+         STC   5,BLANK+59     MOVE 80% VALUE TO THE LEFT
+         STC   5,BLANK+60     MOVE 80% VALUE TO THE LEFT
+         STC   5,BLANK+61     MOVE 80% VALUE TO THE LEFT
+         STC   5,BLANK+62     MOVE 80% VALUE TO THE LEFT
+         STC   5,BLANK+63     MOVE 80% VALUE TO THE LEFT
+         XPRNT BLANK,79       PRINT LINE
+         BC    B'1111',LOOP   RETURN BACK TO THE LOOP
+*
+EXIT     XPRNT BLANK,1        PRINT BLANK LINE
+         XPRNT LLINE,79       PRINT LAST LINE
+         BCR   B'1111',14     RETURN TO OP. SYSTEM
+*
+ERR      XPRNT ERRL,35        PRINT ERROR MESSAGE
+         BCR   B'1111',14     RETURN TO OP. SYSTEM
+*
+CARD     DS    CL35
+         DC    C'*'           CARD CARRIAGE CONTROL
+ERRL     DC    CL35' ERROR OCURRED DURING EXECUTION'
+BLANK    DC    CL79' '
+HEAD1    DC    CL79'        TANK DUMENSIONS         CAPACITY'
+HEAD2    DC    CL79'           (IN FEET)          (IN GALLONS)'
+HEAD3    DC    CL79'   LENGTH  WIDTH   DEPTH    VOLUME    80% FILLED'
+LLINE    DC    CL79' END OF OUTPUT'
+         END   PROG4
+$ENTRY DATA4.TXT
+

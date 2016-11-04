@@ -1,0 +1,159 @@
+
+ASSIST/I Version 2.03, Copyright 1984, BDM Software.                          GRADE RUN FOR: AB
+
+
+                                                                                                                            PAGE 1
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+                                      1 *****************************************************************
+                                      2 *                                                               *
+                                      3 * FILE NAME:  PROJECT4            ASSIGNMENT#:  4               *
+                                      4 *                                                               *
+                                      5 * AUTHOR __________________________________________             *
+                                      6 *                     ADRIAN BELOQUI                            *
+                                      7 *                                                               *
+                                      8 * COURSE: CSC 25500  SECTION: 11      DUE DATE:  10/27/2016     *
+                                      9 *                                                               *
+                                     10 * PURPOSE:  THIS PROGRAM READS AN EXTERNAL TEXT FILE WITH MORE  *
+                                     11 *           THAN ONE NUMBER IN EACH LINE. IT PROCESS THE DATA   *
+                                     12 *           AS THE DIMENTIONS OF A WATER TANK AN CALCULATES THE *
+                                     13 *           VOLUME OF IT. THEN IT CALCULATES THE 80% OF THE     *
+                                     14 *           CAPACITY OF THE TANK AND PRINTS THE WHOLE LINE      *
+                                     15 *           FORMATTED.                                          *
+                                     16 *                                                               *
+                                     17 *****************************************************************
+000000                               18 PROG4    CSECT
+000000                               19          USING PROG4,15
+                                     20 *
+000000 1B22                          21          SR    2,2            TANK'S LENGTH
+000002 1B33                          22          SR    3,3            THAN'S WIDTH
+000004 1B44                          23          SR    4,4            TANK'S DEPTH
+000006 4150 0040            00040    24          LA    5,64           INITIALIZE A BLANK
+                                     25 *
+00000A E020 F1E0 004F 001E0          26          XPRNT HEAD1,79       PRINT FIRST HEADER
+000010 E020 F22F 004F 0022F          27          XPRNT HEAD2,79       PRINT SECOND HEADER
+000016 E020 F27E 004F 0027E          28          XPRNT HEAD3,79       PRINT THIRD HEADER
+00001C E000 F14A 004F 0014A          29 LOOP     XREAD CARD,79        READ CHARACTER FROM INPUT
+000022 4740 F134            00134    30          BC    B'0100',EXIT   EXIT ON EOF
+000026 5320 F14A            0014A    31          XDECI 2,CARD         CONVERT INPUT INTO DECIMAL (LENGTH)
+00002A 4710 F142            00142    32          BC    B'0001',ERR    EXIT ON ERROR
+00002E 5331 0000            00000    33          XDECI 3,0(1)         CONVERT INPUT INTO DECIMAL (WIDTH)
+000032 4710 F142            00142    34          BC    B'0001',ERR    EXIT ON ERROR
+000036 5341 0000            00000    35          XDECI 4,0(1)         CONVERT INPUT INTO DECIMAL (DEPTH)
+00003A 4710 F142            00142    36          BC    B'0001',ERR    EXIT ON ERROR
+00003E 1872                          37          LR    7,2            COPY THE LENGTH TO ANOTHER REGISTER
+000040 1C63                          38          MR    6,3            MULTIPLY LENGTH BY WIDTH
+000042 1C64                          39          MR    6,4            MULTIPLY LENGTH AND WIDTH BY DEPTH
+000044 18B7                          40          LR    11,7           COPY VOLUME TO ANOTHER REGISTER
+000046 5C60 F320            00320    41          M     6,=F'748'      CONVERT INTO GALLONS
+00004A 5D60 F324            00324    42          D     6,=F'100'      CONVERT INTO GALLONS
+00004E 5CA0 F328            00328    43          M     10,=F'59840'   CONVERT INTO GALLONS
+000052 5DA0 F32C            0032C    44          D     10,=F'10000'   CALCULATE 80% OF CAPACITY
+000056 5220 F191            00191    45          XDECO 2,BLANK        PREPARE OUTPUT
+00005A 4380 F19B            0019B    46          IC    8,BLANK+10     MOVE LENGTH VALUE TO THE LEFT
+00005E 4280 F196            00196    47          STC   8,BLANK+5      MOVE LENGTH VALUE TO THE LEFT
+000062 4380 F19C            0019C    48          IC    8,BLANK+11     MOVE LENGTH VALUE TO THE LEFT
+000066 4280 F197            00197    49          STC   8,BLANK+6      MOVE LENGTH VALUE TO THE LEFT
+00006A 4250 F19B            0019B    50          STC   5,BLANK+10     MOVE LENGTH VALUE TO THE LEFT
+00006E 4250 F19C            0019C    51          STC   5,BLANK+11     MOVE LENGTH VALUE TO THE LEFT
+
+                                                                                                                            PAGE 2
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+000072 5230 F19E            0019E    52          XDECO 3,BLANK+13     PREPARE OUTPUT
+000076 4380 F1A8            001A8    53          IC    8,BLANK+23     MOVE WIDTH VALUE TO THE LEFT
+00007A 4280 F19D            0019D    54          STC   8,BLANK+12     MOVE WIDTH VALUE TO THE LEFT
+00007E 4380 F1A9            001A9    55          IC    8,BLANK+24     MOVE WIDTH VALUE TO THE LEFT
+000082 4280 F19E            0019E    56          STC   8,BLANK+13     MOVE WIDTH VALUE TO THE LEFT
+000086 4250 F1A8            001A8    57          STC   5,BLANK+23     MOVE WIDTH VALUE TO THE LEFT
+00008A 4250 F1A9            001A9    58          STC   5,BLANK+24     MOVE WIDTH VALUE TO THE LEFT
+00008E 5240 F1AB            001AB    59          XDECO 4,BLANK+26     PREPARE OUTPUT
+000092 4380 F1B5            001B5    60          IC    8,BLANK+36     MOVE DEPTH VALUE TO THE LEFT
+000096 4280 F1A5            001A5    61          STC   8,BLANK+20     MOVE DEPTH VALUE TO THE LEFT
+00009A 4380 F1B6            001B6    62          IC    8,BLANK+37     MOVE DEPTH VALUE TO THE LEFT
+00009E 4280 F1A6            001A6    63          STC   8,BLANK+21     MOVE DEPTH VALUE TO THE LEFT
+0000A2 4250 F1B5            001B5    64          STC   5,BLANK+36     MOVE DEPTH VALUE TO THE LEFT
+0000A6 4250 F1B6            001B6    65          STC   5,BLANK+37     MOVE DEPTH VALUE TO THE LEFT
+0000AA 5270 F1B8            001B8    66          XDECO 7,BLANK+39     PREPARE OUTPUT
+0000AE 4380 F1BF            001BF    67          IC    8,BLANK+46     MOVE VOLUME VALUE TO THE LEFT
+0000B2 4280 F1AD            001AD    68          STC   8,BLANK+28     MOVE VOLUME VALUE TO THE LEFT
+0000B6 4380 F1C0            001C0    69          IC    8,BLANK+47     MOVE VOLUME VALUE TO THE LEFT
+0000BA 4280 F1AE            001AE    70          STC   8,BLANK+29     MOVE VOLUME VALUE TO THE LEFT
+0000BE 4380 F1C1            001C1    71          IC    8,BLANK+48     MOVE VOLUME VALUE TO THE LEFT
+0000C2 4280 F1AF            001AF    72          STC   8,BLANK+30     MOVE VOLUME VALUE TO THE LEFT
+0000C6 4380 F1C2            001C2    73          IC    8,BLANK+49     MOVE VOLUME VALUE TO THE LEFT
+0000CA 4280 F1B0            001B0    74          STC   8,BLANK+31     MOVE VOLUME VALUE TO THE LEFT
+0000CE 4380 F1C3            001C3    75          IC    8,BLANK+50     MOVE VOLUME VALUE TO THE LEFT
+0000D2 4280 F1B1            001B1    76          STC   8,BLANK+32     MOVE VOLUME VALUE TO THE LEFT
+0000D6 4250 F1BF            001BF    77          STC   5,BLANK+46     MOVE VOLUME VALUE TO THE LEFT
+0000DA 4250 F1C0            001C0    78          STC   5,BLANK+47     MOVE VOLUME VALUE TO THE LEFT
+0000DE 4250 F1C1            001C1    79          STC   5,BLANK+48     MOVE VOLUME VALUE TO THE LEFT
+0000E2 4250 F1C2            001C2    80          STC   5,BLANK+49     MOVE VOLUME VALUE TO THE LEFT
+0000E6 4250 F1C3            001C3    81          STC   5,BLANK+50     MOVE VOLUME VALUE TO THE LEFT
+0000EA 52B0 F1C5            001C5    82          XDECO 11,BLANK+52    PREPARE OUTPUT
+0000EE 4380 F1CC            001CC    83          IC    8,BLANK+59     MOVE 80% VALUE TO THE LEFT
+0000F2 4280 F1B9            001B9    84          STC   8,BLANK+40     MOVE 80% VALUE TO THE LEFT
+0000F6 4380 F1CD            001CD    85          IC    8,BLANK+60     MOVE 80% VALUE TO THE LEFT
+0000FA 4280 F1BA            001BA    86          STC   8,BLANK+41     MOVE 80% VALUE TO THE LEFT
+0000FE 4380 F1CE            001CE    87          IC    8,BLANK+61     MOVE 80% VALUE TO THE LEFT
+000102 4280 F1BB            001BB    88          STC   8,BLANK+42     MOVE 80% VALUE TO THE LEFT
+000106 4380 F1CF            001CF    89          IC    8,BLANK+62     MOVE 80% VALUE TO THE LEFT
+00010A 4280 F1BC            001BC    90          STC   8,BLANK+43     MOVE 80% VALUE TO THE LEFT
+00010E 4380 F1D0            001D0    91          IC    8,BLANK+63     MOVE 80% VALUE TO THE LEFT
+000112 4280 F1BD            001BD    92          STC   8,BLANK+44     MOVE 80% VALUE TO THE LEFT
+000116 4250 F1CC            001CC    93          STC   5,BLANK+59     MOVE 80% VALUE TO THE LEFT
+00011A 4250 F1CD            001CD    94          STC   5,BLANK+60     MOVE 80% VALUE TO THE LEFT
+00011E 4250 F1CE            001CE    95          STC   5,BLANK+61     MOVE 80% VALUE TO THE LEFT
+000122 4250 F1CF            001CF    96          STC   5,BLANK+62     MOVE 80% VALUE TO THE LEFT
+000126 4250 F1D0            001D0    97          STC   5,BLANK+63     MOVE 80% VALUE TO THE LEFT
+00012A E020 F191 004F 00191          98          XPRNT BLANK,79       PRINT LINE
+000130 47F0 F01C            0001C    99          BC    B'1111',LOOP   RETURN BACK TO THE LOOP
+                                    100 *
+000134 E020 F191 0001 00191         101 EXIT     XPRNT BLANK,1        PRINT BLANK LINE
+00013A E020 F2CD 004F 002CD         102          XPRNT LLINE,79       PRINT LAST LINE
+000140 07FE                         103          BCR   B'1111',14     RETURN TO OP. SYSTEM
+                                    104 *
+
+                                                                                                                            PAGE 3
+  LOC  OBJECT CODE    ADDR1 ADDR2   STMT    SOURCE STATEMENT
+
+000142 E020 F16E 0023 0016E         105 ERR      XPRNT ERRL,35        PRINT ERROR MESSAGE
+000148 07FE                         106          BCR   B'1111',14     RETURN TO OP. SYSTEM
+                                    107 *
+00014A                              108 CARD     DS    CL35
+00016D 5C                           109          DC    C'*'           CARD CARRIAGE CONTROL
+00016E 40C5D9D9D6D940D6             110 ERRL     DC    CL35' ERROR OCURRED DURING EXECUTION'
+000191 4040404040404040             111 BLANK    DC    CL79' '
+0001E0 4040404040404040             112 HEAD1    DC    CL79'        TANK DUMENSIONS         CAPACITY'
+00022F 4040404040404040             113 HEAD2    DC    CL79'           (IN FEET)          (IN GALLONS)'
+00027E 404040D3C5D5C7E3             114 HEAD3    DC    CL79'   LENGTH  WIDTH   DEPTH    VOLUME    80% FILLED'
+0002CD 40C5D5C440D6C640             115 LLINE    DC    CL79' END OF OUTPUT'
+                                    116          END   PROG4
+000320 000002EC                                  =F'748'
+000324 00000064                                  =F'100'
+000328 0000E9C0                                  =F'59840'
+00032C 00002710                                  =F'10000'
+
+***   0 STATEMENTS FLAGGED - 0 WARNINGS, 0 ERRORS
+
+*** PROGRAM EXECUTION BEGINNING -
+ANY OUTPUT BEFORE EXECUTION COMPLETE MESSAGE IS PRODUCED BY USER PROGRAM ***
+
+       TANK DUMENSIONS         CAPACITY                                       
+          (IN FEET)          (IN GALLONS)                                     
+  LENGTH  WIDTH   DEPTH    VOLUME    80% FILLED                               
+    42     21       5      32986       26389                                  
+    10     12       4       3590        2872                                  
+    30     30       9      60588       48470                                  
+    55     25       8      82280       65824                                  
+    25     50       7      65450       52360                                  
+    40     30      10      89760       71808                                  
+    35     25       5      32725       26180                                  
+    18     24       6      19388       15510                                  
+     4      5       2        299         239                                  
+    15     15       8      13464       10771                                  
+
+END OF OUTPUT                                                                 
+
+*** EXECUTION COMPLETED ***
+
