@@ -1,0 +1,71 @@
+Author: Adrian Beloqui
+Date Submitted: 11-11-2016
+Platform: Windows - NetBeans 8.2
+
+Steps to compile code:
+
+1- Open the folder of the project with Netbeans
+
+Bugs:
+
+- There are no bugs detected to today.
+
+Summary:
+
+- I first started by creating the two stages and making sure that these two were able to communicate between each other. Then, I started building the TV Control in the Scene Builder, setting up the structure, assigning ids, methods' names and CSS IDs. Then I added the CSS files and tested that these actually edited the style of both stages. Then, I assigned a style for the TV Control. Afterwards, I started buidling the main TV in the Scene Builder, again setting up the structure, assigning ids, methods' names and CSS IDs. Then I set up the movement for the rectangles and tested that the TV Control were able to open the curtains. From there, I set up the movements to close the curtains. Then I added the file chooser to pick up a list of files to be played. Then, I started working on how the files were loaded from the TV Control. Once that was done, I added functionallity to each button in the TV Control so that this could manipulate the movies. Finally, I tested the application several times, adjusted it and commented the code. 
+
+Log:
+
+11-11-2016
+
+- I added the functionality to the Rewind and Fast-Forward buttons.
+- I tested the applications several times to make sure it meets the requirements.
+- Adjusted small things to meet requirements.
+- Commented the code.
+
+11-10-2016
+
+- I set up the structure of the scene for the main TV. I added a Pane and two rectangles, and made the stage not resizeable.
+- I started adding motion to the rectangles to open them. Once finished I added the calling funtion to the corresponding button.
+- Then, I added the motion to the rectangles in order to close them and added the corresponding calling function to the close curtains button.
+- Then I started doing the function that would load the file and store the media urls. Once this was done I started working on the function that
+would change the movie when the Load Next button is pressed.
+- After doing this, I changed the Pane into a StackPane in order to be able to align the movie inside it and make it look better for the user.
+- I added the functionality to the Play and Pause buttons.
+
+11-09-2016
+
+- Created the project and started defining the structure of the application.
+- I decided to create two different FXML files, one for the tv controller and the other one for the tv or screen. I figured out how to link the controllers of the FXML files so I can communicate between the tv controller and the tv.
+- I desinged the layout of the tv controller, and defined the CSS IDs for each element in the layout. 
+- I added two CSS files to the project, one for the tv controller and the other one for the tv.
+- I added properties to the CSS file of the tv controller to set up an initial style for it.
+
+Application CSS properties:
+
+- Files:
+      
+      - CSS File for the TV Control is located inside the project in the ../src/project3/ folder and is named "tvControlStyle.css"
+      - CSS File for the main TV is located inside the project in the ../src/project3/ folder and is named "tvStyle.css"
+
+- Elements that can be accessed by their corresponding IDs in the "tvStyle.css" file:
+
+	- AnchorPane with ID #AnchorPane
+	- Left Rectangle with ID #leftRectangle
+	- Right Rectangle with ID #rightRectangle
+	- StackPane with ID #movieContainer
+
+- Elements that can be accessed by their corresponding IDs in the "tvControlStyle.css" file:
+
+	- Scene with ID #control
+	- 'Curtains' Label with ID #curtainsLabel
+	- 'Movies' Label with ID #moviesLabel
+	- 'System' Label with ID #systemLabel
+	- Open Curtain Button with ID #openCurtainsBtn
+	- Close Curtain Button with ID #closeCurtainsBtn
+	- Load Next Button with ID #loadNextBtn
+	- Play Button with ID #playBtn
+	- Pause Button with ID #pauseBtn
+	- Rewind Button with ID #rewindBtn
+	- Fast-Forward Button with ID #fastForwardBtn
+	- Quit Button with ID #quitBtn

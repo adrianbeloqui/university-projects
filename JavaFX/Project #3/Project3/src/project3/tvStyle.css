@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 10, 2016, 12:59:27 AM
+    Author     : Adrian Beloqui
+*/
+
+/*
+
+Elements that can be accessed by their corresponding IDs in this file:
+
+- AnchorPane with ID #AnchorPane
+- Left Rectangle with ID #leftRectangle
+- Right Rectangle with ID #rightRectangle
+- StackPane with ID #movieContainer
+
+*/
+
+#AnchorPane
+{
+    -fx-background-color: dimgray;
+}
+
+#leftRectangle,#rightRectangle
+{
+    -fx-fill: red;
+}
+
+#movieContainer
+{
+    -fx-background-color: white;
+}

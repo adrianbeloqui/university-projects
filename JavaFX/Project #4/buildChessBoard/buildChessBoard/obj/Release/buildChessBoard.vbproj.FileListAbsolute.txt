@@ -1,0 +1,10 @@
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\bin\Release\buildChessBoard.exe.config
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\bin\Release\buildChessBoard.exe
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\bin\Release\buildChessBoard.pdb
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\bin\Release\buildChessBoard.xml
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\obj\Release\buildChessBoard.mainForm.resources
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\obj\Release\buildChessBoard.Resources.resources
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\obj\Release\buildChessBoard.vbproj.GenerateResource.Cache
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\obj\Release\buildChessBoard.exe
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\obj\Release\buildChessBoard.xml
+C:\Users\Adrian\Documents\Lindenwood-University\Fall-2016\GUI\buildChessBoard\buildChessBoard\obj\Release\buildChessBoard.pdb
